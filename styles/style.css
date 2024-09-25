@@ -1,10 +1,10 @@
 body{
-    place-content: center;
+    display: grid;
+    justify-content: center; 
 }
 
 #navigation{
     display: flex;
-    justify-content: center; 
 }
 
 #navigation li{
