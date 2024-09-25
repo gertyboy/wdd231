@@ -12,3 +12,7 @@ body{
     list-style-type: none;
 }
 
+header{
+    width: 640px;
+    background-color: rgb(81, 203, 214);
+}
