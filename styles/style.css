@@ -1,6 +1,5 @@
 #navigation{
-    list-style-type: none;
-    justify-content: space-between;
-    display: flex,;
-    flex-direction: row;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
