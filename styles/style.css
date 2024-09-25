@@ -2,5 +2,8 @@
     display: flex;
     justify-content: center; 
     align-items: center;
+}
+
+#navigation li{
     padding: 20px;
 }
