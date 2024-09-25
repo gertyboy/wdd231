@@ -1,10 +1,16 @@
+body{
+    justify-content: center;
+}
+
 #navigation{
     display: flex;
     justify-content: center; 
     align-items: center;
+    width: 1000px;
 }
 
 #navigation li{
     padding: 20px;
     list-style-type: none;
 }
+
