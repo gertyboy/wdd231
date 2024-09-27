@@ -28,11 +28,20 @@ header{
     padding-top: 5%;
 }
 
-#course_work, #course_work{
+#course_work, #favorite_place{
     height: 450px;
+    width: 400px;
+    display: inline-flex;
+}
+
+#favorite_place{
+    margin-left: 40px;
 }
 
 .section_title{
+    margin-top: 14%;
     height: 10%;
+    width: 100%;
     background-color: rgb(141, 227, 235);
 }
+
