@@ -3,7 +3,7 @@ body{
     justify-content: center; 
 }
 
-#navigation{
+#navigation, #gertportrait, #name{
     display: flex;
 }
 
@@ -12,11 +12,15 @@ body{
     list-style-type: none;
 }
 
+#name, #gertportrait{
+    justify-content: space-between;
+}
+
 header{
     width: 840px;
     background-color: rgb(141, 227, 235);
 }
 
 #gertportrait{
-    height: 350px;
+    height: 250px;
 }
