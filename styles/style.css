@@ -19,9 +19,13 @@ body{
 
 header{
     width: 840px;
-    background-color: rgb(141, 227, 235);
+    background-color: #3152ad;
 }
 
+#white_space{
+    height: 56px;
+    width: 840px;
+}
 
 #gertportrait{
     height: 250px;
@@ -40,9 +44,8 @@ header{
 }
 
 .section_title{
-    margin-top: 14%;
-    height: 10%;
+    height: 18%;
     width: 100%;
-    background-color: rgb(141, 227, 235);
+    background-color: #3152ad;
 }
 
