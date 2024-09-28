@@ -25,14 +25,13 @@ header {
     background-color: rgb(70, 109, 145);
 }
 
-#white_space {
+.white_space {
     height: 56px;
     width: 840px;
 }
 
 #gertportrait {
     height: 250px;
-    padding-top: 5%;
 }
 
 #course_work,
@@ -41,24 +40,31 @@ header {
     width: 400px;
     display: inline-flex;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 .section_title {
     height: 18%;
     width: 100%;
     background-color: rgb(70, 109, 145);
+    border: 1px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 }
 
 #course-links{
     width: 840px;
     height: 350px;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 #course_title{
     width: 100%;
     height: 25%;
     background-color: rgb(70, 109, 145);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 }
 
 h2{
@@ -67,6 +73,7 @@ h2{
 
 #courses_heading{
     padding-top: 19.92px;
+    margin-top: 0px;
 }
 
 #between_sections{
