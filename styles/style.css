@@ -58,3 +58,9 @@ header {
     width: 840px;
     height: 350px;
 }
+
+#course_title{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(70, 109, 145);
+}
