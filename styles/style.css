@@ -1,51 +1,60 @@
-body{
+body {
     display: grid;
-    justify-content: center; 
+    justify-content: center;
 }
 
-#navigation, #gertportrait, #name{
+#navigation,
+#gertportrait,
+#name {
     display: inline-flex;
 }
 
-#navigation li{
+#navigation li {
     padding: 20px;
     list-style-type: none;
 }
 
-#name, #gertportrait{
+#name,
+#gertportrait {
     justify-content: space-between;
     padding-left: 10%;
 }
 
-header{
+header {
     width: 840px;
-    background-color: #3152ad;
+    background-color: rgb(70, 109, 145);
 }
 
-#white_space{
+#white_space {
     height: 56px;
     width: 840px;
 }
 
-#gertportrait{
+#gertportrait {
     height: 250px;
     padding-top: 5%;
 }
 
-#course_work, #favorite_place{
+#course_work,
+#favorite_place {
     height: 450px;
+    border: px black;
     width: 400px;
     display: inline-flex;
-    background-color: #828a8a;
+
 }
 
-#favorite_place{
+#favorite_place {
     margin-left: 40px;
 }
 
-.section_title{
+.section_title {
     height: 18%;
     width: 100%;
-    background-color: #3152ad;
+    background-color: rgb(70, 109, 145);
 }
 
+#course-links{
+    width: 840px;
+    height: 350px;
+}
