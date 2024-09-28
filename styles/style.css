@@ -40,11 +40,7 @@ header {
     height: 450px;
     width: 400px;
     display: inline-flex;
-    border: 1px black;
-}
-
-#favorite_place {
-    margin-left: 40px;
+    border: 1px solid black;
 }
 
 .section_title {
@@ -56,6 +52,7 @@ header {
 #course-links{
     width: 840px;
     height: 350px;
+    border: 1px solid black;
 }
 
 #course_title{
@@ -70,4 +67,9 @@ h2{
 
 #courses_heading{
     padding-top: 19.92px;
+}
+
+#between_sections{
+    display: inline-flex;
+    width: 38px;
 }
