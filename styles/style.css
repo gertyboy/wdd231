@@ -86,14 +86,22 @@ h2 {
 
 #between_sections {
   display: inline-flex;
-  width: 38px;
+  width: 30px;
 }
 
 footer {
-  display: inline-block;
   width: 840px;
-  height: 250px;
+  height: 160px;
   background-color: rgb(70, 109, 145);
   border: 1px solid black;
   border-radius: 9px;
+  justify-self: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+#currentyear{
+    margin-top: 60px;
 }
