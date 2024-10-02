@@ -1,90 +1,99 @@
 body {
-    display: grid;
-    justify-content: center;
+  display: grid;
+  justify-content: center;
 }
 
 #navigation,
 #gertportrait,
 #name {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 #navigation li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-#navigation{
-    width: 680px;
-    justify-content: space-between;
-    margin-left: 45px;
+#navigation {
+  width: 680px;
+  justify-content: space-between;
+  margin-left: 45px;
 }
 
 #name,
 #gertportrait {
-    justify-content: space-between;
-    padding-left: 10%;
+  justify-content: space-between;
+  padding-left: 10%;
 }
 
 header {
-    width: 840px;
-    background-color: rgb(70, 109, 145);
-    border: 1px solid black;
-    border-radius: 9px;
+  width: 840px;
+  background-color: rgb(70, 109, 145);
+  border: 1px solid black;
+  border-radius: 9px;
 }
 
 .white_space {
-    height: 56px;
-    width: 840px;
+  height: 56px;
+  width: 840px;
 }
 
 #gertportrait {
-    margin-top: 50px;
-    height: 250px;
+  margin-top: 50px;
+  height: 250px;
 }
 
 #course_work,
 #favorite_place {
-    height: 450px;
-    width: 400px;
-    display: inline-flex;
-    border: 1px solid black;
-    border-radius: 10px;
+  height: 450px;
+  width: 400px;
+  display: inline-flex;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .section_title {
-    height: 18%;
-    width: 100%;
-    background-color: rgb(70, 109, 145);
-    border: 1px;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
+  height: 18%;
+  width: 100%;
+  background-color: rgb(70, 109, 145);
+  border: 1px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
 }
 
-#course-links{
-    width: 840px;
-    height: 350px;
-    border: 1px solid black;
-    border-radius: 10px;
+#course-links {
+  width: 840px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
-#course_title{
-    width: 100%;
-    height: 25%;
-    background-color: rgb(70, 109, 145);
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
+#course_title {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(70, 109, 145);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
 }
 
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
-#courses_heading{
-    padding-top: 19.92px;
-    margin-top: 0px;
+#courses_heading {
+  padding-top: 19.92px;
+  margin-top: 0px;
 }
 
-#between_sections{
-    display: inline-flex;
-    width: 38px;
+#between_sections {
+  display: inline-flex;
+  width: 38px;
+}
+
+footer {
+  display: inline-block;
+  width: 840px;
+  height: 250px;
+  background-color: rgb(70, 109, 145);
+  border: 1px solid black;
+  border-radius: 9px;
 }
