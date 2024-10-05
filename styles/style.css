@@ -106,7 +106,7 @@ h2 {
   margin-top: 0px;
 }
 
-#between_sections {
+.between_sections {
   display: inline-flex;
   width: 30px;
 }
