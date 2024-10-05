@@ -77,3 +77,52 @@ const courses = [
         completed: false
     }
 ]
+
+
+
+const getCSECourses = (courses) => {
+    return courses.filter(course => course.subject === 'CSE');
+};
+
+const getWDDCourses = (courses) => {
+    return courses.filter(course => course.subject === 'WDD');
+};
+
+const getCredits = (courses) => {
+    const credits = courses.reduce(
+        (accumulator, course) => accumulator + course.credits,
+        0
+    );
+    return credits;
+};
+
+// DOM elements.
+const differentCourses = document.getElementById('different_courses');
+const courseDiv = document.getElementById("display_courses")
+
+const renderHTML = (courses) => {
+    let html = `<div class="credits">Total Credits: ${getCredits(courses)}</div>`;
+    courses.forEach(course => {
+        const element = `<div class="${course.completed ? 'completed' : 'incomplete'}">${course.subject} ${course.number}</div>`;
+        html += element;
+    });
+    courseDiv.innerHTML = html;
+};
+
+renderHTML(courses);
+
+differentCourses.addEventListener('click', (event) => {
+    const target = event.target;
+    event.preventDefault();
+    switch (target.textContent.toLowerCase()) {
+        case 'all':
+            renderHTML(courses);
+            break;
+        case 'cse':
+            renderHTML(getCSECourses(courses));
+            break;
+        case 'wdd':
+            renderHTML(getWDDCourses(courses));
+            break;
+    }
+})
