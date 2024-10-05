@@ -4,8 +4,12 @@ body {
   text-align: center;
   justify-content: space-between;
   max-width: 1000px;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
+}
+
+#main_container{
+  max-height: 456px;
 }
 
 #navigation,
@@ -35,7 +39,7 @@ header {
   border: 1px solid black;
   border-radius: 9px;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
 .white_space {
@@ -78,7 +82,7 @@ header {
   border: 1px solid black;
   border-radius: 10px;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
 #course_title {
@@ -111,13 +115,19 @@ footer {
   border: 1px solid black;
   border-radius: 9px;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
-footer p{
-    text-align: center;
+footer p {
+  text-align: center;
 }
 
-#currentyear{
-    margin-top: 60px;
+#currentyear {
+  margin-top: 60px;
+}
+
+#tokyo {
+  width: 100px;
+  height: 75px;
+    
 }
