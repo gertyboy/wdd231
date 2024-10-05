@@ -1,6 +1,11 @@
 body {
-  display: grid;
-  justify-content: center;
+  display: block;
+  justify-self: center;
+  text-align: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 #navigation,
@@ -16,7 +21,6 @@ body {
 #navigation {
   width: 680px;
   justify-content: space-between;
-  margin-left: 45px;
 }
 
 #name,
@@ -30,6 +34,8 @@ header {
   background-color: rgb(70, 109, 145);
   border: 1px solid black;
   border-radius: 9px;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .white_space {
@@ -42,29 +48,37 @@ header {
   height: 250px;
 }
 
-#course_work,
-#favorite_place {
-  height: 450px;
+.section_title {
+  height: 75px;
   width: 400px;
   display: inline-flex;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.section_title {
-  height: 18%;
-  width: 100%;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   background-color: rgb(70, 109, 145);
-  border: 1px;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
 }
+
+.body_section {
+  height: 375px;
+  width: 400px;
+  display: inline-flex;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
 
 #course-links {
   width: 840px;
   height: 350px;
   border: 1px solid black;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 #course_title {
@@ -76,6 +90,7 @@ header {
 }
 
 h2 {
+  width: 100%;
   text-align: center;
 }
 
@@ -95,7 +110,8 @@ footer {
   background-color: rgb(70, 109, 145);
   border: 1px solid black;
   border-radius: 9px;
-  justify-self: center;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 footer p{
