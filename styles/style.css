@@ -172,3 +172,7 @@ footer p {
   margin-left: auto;
   margin-right:auto;
 }
+
+#different_courses span:hover{
+  cursor: pointer;
+}
