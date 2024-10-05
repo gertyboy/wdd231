@@ -6,9 +6,12 @@ body {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-#main_container{
+#main_container {
   max-height: 456px;
 }
 
@@ -129,7 +132,7 @@ footer p {
 }
 
 #tokyo {
-  display:inherit;
+  display: inherit;
   width: 368px;
   margin-left: auto;
   margin-right: auto;
@@ -137,12 +140,13 @@ footer p {
   overflow: hidden;
 }
 
-#iamlosingmymind{
+#iamlosingmymind {
   position: relative;
-  top:-345px;
+  top: -345px;
 }
 
-.completed, .incomplete{
+.completed,
+.incomplete {
   display: inline-flex;
   height: 50px;
   width: 300px;
@@ -153,24 +157,24 @@ footer p {
   justify-content: space-around;
 }
 
-.completed{
+.completed {
   background-color: #549146;
 }
 
-.incomplete{
+.incomplete {
   background-color: #914686;
 }
 
-#different_courses span{
+#different_courses span {
   background-color: #7a7e82;
   width: auto;
   height: auto;
   border: 1px solid black;
   border-radius: .25rem;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
-#different_courses span:hover{
+#different_courses span:hover {
   cursor: pointer;
 }
