@@ -59,6 +59,7 @@ header {
   border-top: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
+  border-bottom:-1px;
   background-color: rgb(70, 109, 145);
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
@@ -76,6 +77,7 @@ header {
 }
 
 
+
 #course-links {
   width: 840px;
   height: 350px;
@@ -83,6 +85,7 @@ header {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -10px;
 }
 
 #course_title {
@@ -127,7 +130,16 @@ footer p {
 }
 
 #tokyo {
-  width: 100px;
-  height: 75px;
-    
+  display:inherit;
+  width: 368px;
+  height: 276;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+#iamlosingmymind{
+  position: relative;
+  top:-345px;
 }
