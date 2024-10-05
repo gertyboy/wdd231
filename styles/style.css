@@ -1,179 +1,203 @@
-body {
-  display: block;
-  justify-self: center;
-  text-align: center;
-  justify-content: space-between;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Lora", serif;
-  font-style: normal;
+@media (min-width: 880px) {
+
+  body {
+    display: block;
+    justify-self: center;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lora", serif;
+    font-style: normal;
+  }
+
+  #main_container {
+    max-height: 456px;
+  }
+
+  #navigation,
+  #gertportrait,
+  #name {
+    display: inline-flex;
+  }
+
+  #navigation li {
+    list-style-type: none;
+  }
+
+  #navigation {
+    width: 680px;
+    justify-content: space-between;
+  }
+
+  #name,
+  #gertportrait {
+    justify-content: space-between;
+    padding-left: 10%;
+  }
+
+  header {
+    width: 840px;
+    background-color: rgb(70, 109, 145);
+    border: 1px solid black;
+    border-radius: 9px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .white_space {
+    height: 56px;
+    width: 840px;
+  }
+
+  #gertportrait {
+    margin-top: 50px;
+    height: 250px;
+  }
+
+  .section_title {
+    height: 75px;
+    width: 400px;
+    display: inline-flex;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: rgb(70, 109, 145);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+
+  .body_section {
+    height: 375px;
+    width: 400px;
+    display: inline-flex;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
+
+
+
+  #course-links {
+    width: 840px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+  }
+
+  #course_title {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(70, 109, 145);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+
+  h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #courses_heading {
+    padding-top: 19.92px;
+    margin-top: 0px;
+  }
+
+  .between_sections {
+    display: inline-flex;
+    width: 30px;
+  }
+
+  footer {
+    width: 840px;
+    height: 160px;
+    background-color: rgb(70, 109, 145);
+    border: 1px solid black;
+    border-radius: 9px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+  #currentyear {
+    margin-top: 60px;
+  }
+
+  #tokyo {
+    display: inherit;
+    width: 368px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  #iamlosingmymind {
+    position: relative;
+    top: -345px;
+  }
+
+  .completed,
+  .incomplete {
+    display: inline-flex;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: .5rem;
+    margin: auto;
+    justify-content: space-around;
+  }
+
+  .completed {
+    background-color: #549146;
+  }
+
+  .incomplete {
+    background-color: #914686;
+  }
+
+  #different_courses span {
+    background-color: #7a7e82;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: .25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #different_courses span:hover {
+    cursor: pointer;
+  }
+  .mobile_only {
+    display: none;
+  }
 }
 
-#main_container {
-  max-height: 456px;
-}
+@media (max-width: 879px) {
 
-#navigation,
-#gertportrait,
-#name {
-  display: inline-flex;
-}
+  body {
+    display: block;
+    justify-self: center;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lora", serif;
+    font-style: normal;
+  }
 
-#navigation li {
-  list-style-type: none;
-}
+ 
 
-#navigation {
-  width: 680px;
-  justify-content: space-between;
-}
-
-#name,
-#gertportrait {
-  justify-content: space-between;
-  padding-left: 10%;
-}
-
-header {
-  width: 840px;
-  background-color: rgb(70, 109, 145);
-  border: 1px solid black;
-  border-radius: 9px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.white_space {
-  height: 56px;
-  width: 840px;
-}
-
-#gertportrait {
-  margin-top: 50px;
-  height: 250px;
-}
-
-.section_title {
-  height: 75px;
-  width: 400px;
-  display: inline-flex;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  background-color: rgb(70, 109, 145);
-  border-top-left-radius: 9px;
-  border-top-right-radius: 9px;
-}
-
-.body_section {
-  height: 375px;
-  width: 400px;
-  display: inline-flex;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom-left-radius: 9px;
-  border-bottom-right-radius: 9px;
-}
-
-
-
-#course-links {
-  width: 840px;
-  height: 350px;
-  border: 1px solid black;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -10px;
-}
-
-#course_title {
-  width: 100%;
-  height: 25%;
-  background-color: rgb(70, 109, 145);
-  border-top-left-radius: 9px;
-  border-top-right-radius: 9px;
-}
-
-h2 {
-  width: 100%;
-  text-align: center;
-}
-
-#courses_heading {
-  padding-top: 19.92px;
-  margin-top: 0px;
-}
-
-.between_sections {
-  display: inline-flex;
-  width: 30px;
-}
-
-footer {
-  width: 840px;
-  height: 160px;
-  background-color: rgb(70, 109, 145);
-  border: 1px solid black;
-  border-radius: 9px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer p {
-  text-align: center;
-}
-
-#currentyear {
-  margin-top: 60px;
-}
-
-#tokyo {
-  display: inherit;
-  width: 368px;
-  margin-left: auto;
-  margin-right: auto;
-  object-fit: contain;
-  overflow: hidden;
-}
-
-#iamlosingmymind {
-  position: relative;
-  top: -345px;
-}
-
-.completed,
-.incomplete {
-  display: inline-flex;
-  height: 50px;
-  width: 300px;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: .5rem;
-  margin: auto;
-  justify-content: space-around;
-}
-
-.completed {
-  background-color: #549146;
-}
-
-.incomplete {
-  background-color: #914686;
-}
-
-#different_courses span {
-  background-color: #7a7e82;
-  width: auto;
-  height: auto;
-  border: 1px solid black;
-  border-radius: .25rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#different_courses span:hover {
-  cursor: pointer;
 }
