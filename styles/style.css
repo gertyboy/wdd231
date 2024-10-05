@@ -198,6 +198,30 @@
     font-style: normal;
   }
 
- 
+  header {
+    width: 318px;
+    background-color: rgb(70, 109, 145);
+    border: 1px solid black;
+    min-height: 385px;
+    border-radius: 9px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  .hamburger{
+    height: 4px;
+    width: 20px;
+    margin-bottom: 2px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: .1rem;
+  }
+
+  .mobile_hidden{
+    display: none;
+  }
+
+  #gertportrait{
+    margin-top: 20px;
+  }
 }
