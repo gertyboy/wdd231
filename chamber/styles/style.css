@@ -1,7 +1,17 @@
+body{
+    display: inline-block;
+}
+
 header{
+    display: inline-flex;
     height:300px;
     width:100%;
 }
 
+#sflogo{
+    height: 150px;
+}
+
 #chamber_name{
+    width: 200px;
 }

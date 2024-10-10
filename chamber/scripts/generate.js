@@ -1,16 +1,20 @@
 async function addHeaderAndFooter() {
     // Create the header element
     const header = document.createElement('header');
+    // Create image and give attributes
     const image = document.createElement('img');
     image.src = 'https://www.spanishfork.org/_assets_/images/logo.png'; // Replace with the actual path to your image
-    image.alt = 'Header image'; // Set an appropriate alternative text
-    const coc = document.createElement('h1')
-    coc.id = "chamber_name"
-    coc.innerHTML = "Spanish Fork Chamber of Commerce"
+    image.alt = 'Spanish Fork City Logo'; // Set an appropriate alternative text
+    image.id = 'sflogo';
 
-    // Append the image to the header
+    const coc = document.createElement('h1');
+    coc.id = "chamber_name";
+    coc.innerHTML = "Spanish Fork Chamber of Commerce";
+    
+
+    // Append the elements to the header
     header.append(image);
-    header.append(coc)
+    header.append(coc);
 
 
     // Create the footer element
