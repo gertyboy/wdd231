@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 header {
     width: 100%;
     display: flex;
@@ -6,6 +10,12 @@ header {
     /* Distribute items evenly */
     align-items: center;
     /* Center items vertically */
+    background-color: rgb(177, 217, 253);
+    margin:0px;
+}
+
+footer{
+    background-color: rgb(177, 217, 253);
 }
 
 img {
@@ -62,11 +72,29 @@ li {
 }
 
 section{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 30px;
+    background-color: rgb(177, 217, 253);
 }
 
 section img{
     max-width: 300px;
-    margin-left:0px;
+    margin:10px;
 }
+
+section p{
+    margin: 10px;
+}
+
+section h2{
+    margin: 10px;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+

@@ -27,21 +27,25 @@ const displayBusinesses = (businesses) => {
         // Create elements to add to the div.cards element
         const card = document.createElement('section');
         const businessName = document.createElement('h2'); // fill in the blank
-        const firstp = document.createElement('p')
-        const secondp = document.createElement('p')
-        const thirdp = document.createElement('a')
+        const firstp = document.createElement('p');
+        const secondp = document.createElement('p');
+        const thirdp = document.createElement('p');
+        const webLink = document.createElement('a');
         const portrait = document.createElement('img');
         portrait.setAttribute('src', business.imageurl);
-        portrait.setAttribute('alt', `Picture of ${business.name}`)
+        portrait.setAttribute('alt', `Picture of ${business.name}`);
         card.append(portrait);
         businessName.innerHTML = business.name;
         card.append(businessName);
-        firstp.innerHTML = business.address
-        card.append(firstp)
-        secondp.innerHTML = business.number
-        card.append(secondp)
-        thirdp.innerHTML = business.url
-        card.append(thirdp)
+        firstp.innerHTML = business.address;
+        card.append(firstp);
+        secondp.innerHTML = business.number;
+        card.append(secondp);
+        webLink.setAttribute('href', business.url);
+        webLink.setAttribute('target', "_blank")
+        webLink.innerHTML = business.url;
+        thirdp.append(webLink);
+        card.append(thirdp);
         cards.appendChild(card);
     }); // end of arrow function and forEach loop
 }
