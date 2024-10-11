@@ -57,9 +57,24 @@ li {
         width: 20px;
         margin-bottom: 2px;
         background-color: black;
-        margin-left: 20px;
+        margin-right: 20px;
         border-radius: .1rem;
       }
+      nav{
+        display: none;
+      }
+
+      header{
+        display: block;
+        text-align: center;
+      }
+
+      .hamburger{
+        margin-left:auto;
+        margin-right:auto;
+      }
+
+
 }
 
 @media (min-width:940px){

@@ -20,14 +20,16 @@ async function addHeaderAndFooter() {
         const divOne = document.createElement('div');
         const divTwo = document.createElement('div');
         const divThree = document.createElement('div');
-        divOne.classList.add('hamburger')
+        bigDiv.setAttribute('id', 'burgerClick')
+        divOne.classList.add('hamburger');
         bigDiv.append(divOne);
-        divTwo.classList.add('hamburger')
+        divTwo.classList.add('hamburger');
         bigDiv.append(divTwo);
-        divThree.classList.add('hamburger')
+        divThree.classList.add('hamburger');
         bigDiv.append(divThree);
         //Create table of contents
         const nav = document.createElement('nav');
+        nav.setAttribute('id', 'navigation');
         const list = document.createElement('ul');
         const links = [
             { name: "home", url: "#" },
@@ -35,10 +37,11 @@ async function addHeaderAndFooter() {
             { name: "join", url: "#" },
             { name: "discover", url: "#" }
         ];
+
         nav.append(list);
         links.forEach((links) => {
             const listItem = document.createElement('li');
-            const innerLink = document.createElement('a')
+            const innerLink = document.createElement('a');
             const linkName = links.name;
             const linkUrl = links.url;
             innerLink.innerHTML = linkName;
@@ -66,7 +69,7 @@ async function addHeaderAndFooter() {
         const footer = document.createElement('footer');
         const list = document.createElement('ul');
         let lastModified = document.lastModified
-        lastModified = "Last Update: " + lastModified
+        lastModified = "Last Update: " + lastModified;
         const listItems = [
             { name: "Spanish Fork Chamber of Commerce", class: "left" },
             { name: "40 S Main St", class: "left" },
@@ -82,17 +85,17 @@ async function addHeaderAndFooter() {
             const listItem = document.createElement('li');
             const linkName = listItems.name;
             listItem.innerHTML = linkName;
-            const leftOrRight = listItems.class
-            listItem.classList.add(leftOrRight)
-            list.append(listItem)
+            const leftOrRight = listItems.class;
+            listItem.classList.add(leftOrRight);
+            list.append(listItem);
         })
 
-        footer.append(list)
+        footer.append(list);
 
         body.append(footer);
     }
 
-    addHeader()
+    addHeader();
 }
 
 // Call the function to add the header and footer

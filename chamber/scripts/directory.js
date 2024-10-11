@@ -41,7 +41,7 @@ const displayBusinesses = (businesses) => {
         secondp.innerHTML = business.number;
         card.append(secondp);
         webLink.setAttribute('href', business.url);
-        webLink.setAttribute('target', "_blank")
+        webLink.setAttribute('target', "_blank");
         webLink.innerHTML = business.url;
         thirdp.append(webLink);
         card.append(thirdp);
