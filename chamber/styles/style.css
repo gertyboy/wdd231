@@ -86,7 +86,7 @@ li {
     }
 
     .hamburger{
-        display: hidden;
+        display: none;
     }
 }
 
