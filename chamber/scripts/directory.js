@@ -32,6 +32,7 @@ const displayBusinesses = (businesses) => {
         const thirdp = document.createElement('a')
         const portrait = document.createElement('img');
         portrait.setAttribute('src', business.imageurl);
+        portrait.setAttribute('alt', `Picture of ${business.name}`)
         card.append(portrait);
         businessName.innerHTML = business.name;
         card.append(businessName);
