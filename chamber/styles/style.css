@@ -62,12 +62,16 @@ li {
         width: 100%;
         text-align: right;
         position: relative;
-        top:-92.5px;
+        top:-72.5px;
+        right:20px;
     }
     
     .left{
         width: 100%;
         text-align: left;
+        margin-left: 20px;
+        position: relative;
+        top:20px;
     }
 }
 
