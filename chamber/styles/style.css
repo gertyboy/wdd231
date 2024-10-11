@@ -30,12 +30,7 @@ h1 {
     /* Remove default margin */
 }
 
-nav {
-    display: flex;
-    gap: 20px;
-    /* Add spacing between links */
-    margin-right: 30px;
-}
+
 
 nav a {
     text-decoration: none;
@@ -55,6 +50,30 @@ li {
 }
 
 
+
+@media (max-width:939px){
+    .hamburger{
+        height: 4px;
+        width: 20px;
+        margin-bottom: 2px;
+        background-color: black;
+        margin-left: 20px;
+        border-radius: .1rem;
+      }
+}
+
+@media (min-width:940px){
+    nav {
+        display: flex;
+        gap: 20px;
+        /* Add spacing between links */
+        margin-right: 30px;
+    }
+
+    .hamburger{
+        display: hidden;
+    }
+}
 
 @media (min-width: 500px){
 

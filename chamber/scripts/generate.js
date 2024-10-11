@@ -16,7 +16,16 @@ async function addHeaderAndFooter() {
         const coc = document.createElement('h1');
         coc.id = "chamber_name";
         coc.innerHTML = "Spanish Fork Chamber of Commerce";
-
+        const bigDiv = document.createElement('div');
+        const divOne = document.createElement('div');
+        const divTwo = document.createElement('div');
+        const divThree = document.createElement('div');
+        divOne.classList.add('hamburger')
+        bigDiv.append(divOne);
+        divTwo.classList.add('hamburger')
+        bigDiv.append(divTwo);
+        divThree.classList.add('hamburger')
+        bigDiv.append(divThree);
         //Create table of contents
         const nav = document.createElement('nav');
         const list = document.createElement('ul');
@@ -43,6 +52,7 @@ async function addHeaderAndFooter() {
         // Append the elements to the header
         header.append(image);
         header.append(coc);
+        header.append(bigDiv)
         header.append(nav);
 
         body.prepend(header);
@@ -58,15 +68,15 @@ async function addHeaderAndFooter() {
         let lastModified = document.lastModified
         lastModified = "Last Update: " + lastModified
         const listItems = [
-            {name: "Spanish Fork Chamber of Commerce", class:"left"},
-            {name: "40 S Main St", class:"left"},
-            {name: "Spanish Fork, UT 84660", class:"left"},
-            {name: "tho24052@byui.edu", class:"left"},
-            {name: "(801)-404-7912", class:"left"},
-            {name: "WDD231 Class Project", class:"right"},
-            {name: "Gerrit Thompson", class:"right"},
-            {name: "&copy 2024 Spanish Fork Chamber of Commerce", class:"right"},
-            {name: lastModified, class:"right"}
+            { name: "Spanish Fork Chamber of Commerce", class: "left" },
+            { name: "40 S Main St", class: "left" },
+            { name: "Spanish Fork, UT 84660", class: "left" },
+            { name: "tho24052@byui.edu", class: "left" },
+            { name: "(801)-404-7912", class: "left" },
+            { name: "WDD231 Class Project", class: "right" },
+            { name: "Gerrit Thompson", class: "right" },
+            { name: "&copy 2024 Spanish Fork Chamber of Commerce", class: "right" },
+            { name: lastModified, class: "right" }
         ]
         listItems.forEach((listItems) => {
             const listItem = document.createElement('li');

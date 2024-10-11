@@ -7,7 +7,6 @@ async function getBusinessData(url) {
     try {
         const response = await fetch(url);
         const data = await response.json();
-        console.log(data.businesses)
         displayBusinesses(data.businesses);
 
 
