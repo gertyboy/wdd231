@@ -7,7 +7,8 @@ async function getBusinessData(url) {
     try {
         const response = await fetch(url);
         const data = await response.json();
-        displayBusinesses(data);
+        console.log(data.businesses)
+        displayBusinesses(data.businesses);
 
 
 
@@ -28,9 +29,9 @@ const displayBusinesses = (businesses) => {
         let businessName = document.createElement('h2'); // fill in the blank
         let portrait = document.createElement('img');
 
-//        console.log(business.imageUrl)
-//      portrait.url = business.imageUrl;
+        console.log(business.imageurl)
         portrait.setAttribute('src', business.imageurl);
+        portrait.url = businesses.imageurl;
         card.append(portrait);
         cards.appendChild(card);
     }); // end of arrow function and forEach loop
