@@ -30,8 +30,9 @@ async function addHeaderAndFooter() {
         const linkName = links.name;
         const linkUrl = links.url;
         listItem.append()
-        listItem.innerHTML = linkName;
-        listItem.href = linkUrl;
+        innerLink.innerHTML = linkName;
+        innerLink.href = linkUrl;
+        listItem.append(innerLink)
         nav.append(listItem);
     })
     

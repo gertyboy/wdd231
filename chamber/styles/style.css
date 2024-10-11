@@ -1,17 +1,30 @@
-body{
-    display: inline-block;
-}
+header {
+    width: 100%;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+  }
+  
+  img {
+    height: 7dvh; /* Adjust height as needed */
+    margin-left: 20px; /* Add spacing from left */
+  }
+  
+  h1 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px; /* Add spacing between links */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000; /* Change color as needed */
+    font-weight: bold;
+  }
 
-header{
-    display: inline-flex;
-    height:300px;
-    width:100%;
-}
-
-#sflogo{
-    height: 150px;
-}
-
-#chamber_name{
-    width: 200px;
-}
+  li {
+    list-style-type: none;
+  }
