@@ -1,37 +1,57 @@
 header {
     width: 100%;
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Distribute items evenly */
-    align-items: center; /* Center items vertically */
-  }
-  
-  img {
-    height: 7dvh; /* Adjust height as needed */
-    margin-left: 20px; /* Add spacing from left */
-  }
-  
-  h1 {
-    margin: 0; /* Remove default margin */
-  }
-  
-  nav {
     display: flex;
-    gap: 20px; /* Add spacing between links */
-    margin-right: 30px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #000; /* Change color as needed */
-    font-weight: bold;
-  }
-
-ul{
-    display:contents;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+    /* Distribute items evenly */
+    align-items: center;
+    /* Center items vertically */
 }
 
-  li {
+img {
+    height: 7dvh;
+    /* Adjust height as needed */
+    margin-left: 20px;
+    /* Add spacing from left */
+}
+
+h1 {
+    margin: 0;
+    /* Remove default margin */
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    /* Add spacing between links */
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    /* Change color as needed */
+    font-weight: bold;
+}
+
+ul {
+    display: contents;
+}
+
+li {
     list-style-type: none;
     justify-content: space-between;
-    align-items: center;
-  }
+
+}
+
+.right{
+    width: 100%;
+    text-align: right;
+    position: relative;
+    top:-92.5px;
+}
+
+.left{
+    width: 100%;
+    text-align: left;
+}
