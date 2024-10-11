@@ -1,58 +1,60 @@
-[
-    {
-        "name": "PCC Aerostructures",
-        "address": "1800 N 300 W, Spanish Fork, UT 84660",
-        "number": "+18017987401",
-        "url": "https://www.pccaero.com/companies/spanish-fork/",
-        "imageUrl": "https://www.pccaero.com/assets/local/images/logos/PCC-Spanish-Fork.png",
-        "memberLevel": "1"
-    },
-    {
-        "name": "Taco Bell",
-        "address": "915 N Main St, Spanish Fork, UT 84660",
-        "number": "+18017988849",
-        "url": "https://locations.tacobell.com/ut/spanish-fork/915-north-main-street.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=025393&utm_content=website&y_source=1_NjE0MTc0Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
-        "imageUrl": "https://locations.tacobell.com/permanent-b0b701/assets/images/TBUS_Logo.7bd20747.svg",
-        "memberLevel": "2"
-    },
-    {
-        "name": "Target",
-        "address": "900 Expressway Ln, Spanish Fork, UT 84660",
-        "number": "+13854483384",
-        "url": "http://www.target.com/",
-        "imageUrl": "http://www.target.com/icons/light/BullseyeRed.svg#BullseyeRed",
-        "memberLevel": "2"
-    },
-    {
-        "name": "Costco Wholesale",
-        "address": "273 E 1000 N, Spanish Fork, UT 84660",
-        "number": "+18015049530",
-        "url": "https://www.costco.com/warehouse-locations/spanish-fork-UT-1118.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link",
-        "imageUrl": "https://www.costco.com/wcsstore/CostcoGLOBALSAS/images/Costco_Logo-1.png",
-        "memberLevel": "3"
-    },
-    {
-        "name": "Big O Tires",
-        "address": "570 N Main St, Spanish Fork, UT 84660",
-        "number": "+18016581595",
-        "url": "https://www.bigotires.com/location/ut/spanish-fork/570-n-main-st-84660/044237?utm_source=google&utm_medium=maps&utm_campaign=google+maps&y_source=1_ODY2OTYwOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
-        "imageUrl": "https://www.bigotires.com/static/media/Logo.1b4cdbf8.svg",
-        "memberLevel": "1"
-    },
-    {
-        "name": "Macey's Spanish Fork",
-        "address": "187 E 1000 N, Spanish Fork, UT 84660",
-        "number": "+18017989803",
-        "url": "http://www.maceys.com/",
-        "imageUrl": "https://afs-media.netlify.app/maceys/logo.png",
-        "memberLevel": "3"
-    },
-    {
-        "name": "Hangar 15 Bicycles",
-        "address": "877 N 700 E, Spanish Fork, UT 84660",
-        "number": "+18015046655",
-        "url": "http://www.hangar15bicycles.com/",
-        "imageUrl": "https://www.sefiles.net/merchant/3671/images/site/Hangere15.png",
-        "memberLevel": "1"
-    }
-]
+{
+    "businesses": [
+        {
+            "name": "PCC Aerostructures",
+            "address": "1800 N 300 W, Spanish Fork, UT 84660",
+            "number": "+18017987401",
+            "url": "https://www.pccaero.com/companies/spanish-fork/",
+            "imageurl": "https://www.pccaero.com/assets/local/images/logos/PCC-Spanish-Fork.png",
+            "memberLevel": "1"
+        },
+        {
+            "name": "Taco Bell",
+            "address": "915 N Main St, Spanish Fork, UT 84660",
+            "number": "+18017988849",
+            "url": "https://locations.tacobell.com/ut/spanish-fork/915-north-main-street.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=025393&utm_content=website&y_source=1_NjE0MTc0Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+            "imageurl": "https://locations.tacobell.com/permanent-b0b701/assets/images/TBUS_Logo.7bd20747.svg",
+            "memberLevel": "2"
+        },
+        {
+            "name": "Target",
+            "address": "900 Expressway Ln, Spanish Fork, UT 84660",
+            "number": "+13854483384",
+            "url": "http://www.target.com/",
+            "imageurl": "http://www.target.com/icons/light/BullseyeRed.svg#BullseyeRed",
+            "memberLevel": "2"
+        },
+        {
+            "name": "Costco Wholesale",
+            "address": "273 E 1000 N, Spanish Fork, UT 84660",
+            "number": "+18015049530",
+            "url": "https://www.costco.com/warehouse-locations/spanish-fork-UT-1118.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link",
+            "imageurl": "https://www.costco.com/wcsstore/CostcoGLOBALSAS/images/Costco_Logo-1.png",
+            "memberLevel": "3"
+        },
+        {
+            "name": "Big O Tires",
+            "address": "570 N Main St, Spanish Fork, UT 84660",
+            "number": "+18016581595",
+            "url": "https://www.bigotires.com/location/ut/spanish-fork/570-n-main-st-84660/044237?utm_source=google&utm_medium=maps&utm_campaign=google+maps&y_source=1_ODY2OTYwOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+            "imageurl": "https://www.bigotires.com/static/media/Logo.1b4cdbf8.svg",
+            "memberLevel": "1"
+        },
+        {
+            "name": "Macey's Spanish Fork",
+            "address": "187 E 1000 N, Spanish Fork, UT 84660",
+            "number": "+18017989803",
+            "url": "http://www.maceys.com/",
+            "imageurl": "https://afs-media.netlify.app/maceys/logo.png",
+            "memberLevel": "3"
+        },
+        {
+            "name": "Hangar 15 Bicycles",
+            "address": "877 N 700 E, Spanish Fork, UT 84660",
+            "number": "+18015046655",
+            "url": "http://www.hangar15bicycles.com/",
+            "imageurl": "https://www.sefiles.net/merchant/3671/images/site/Hangere15.png",
+            "memberLevel": "1"
+        }
+    ]
+}
