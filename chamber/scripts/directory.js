@@ -31,6 +31,7 @@ const displayBusinesses = (businesses) => {
         const thirdp = document.createElement('p');
         const webLink = document.createElement('a');
         const portrait = document.createElement('img');
+        card.classList.add('cards')
         portrait.setAttribute('src', business.imageurl);
         portrait.setAttribute('alt', `Picture of ${business.name}`);
         card.append(portrait);
@@ -50,4 +51,29 @@ const displayBusinesses = (businesses) => {
 }
 
 
+
 getBusinessData(url);
+
+
+
+function viewCards() {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        section.classList.add('cards');
+        section.classList.remove('list');
+    });
+}
+
+function viewList() {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        section.classList.add('list');
+        section.classList.remove('cards')
+    });
+}
+
+const cardView = document.getElementById('card-view'); // Replace with your clickable element's ID
+cardView.addEventListener('click', viewCards);
+
+const listView = document.getElementById('list-view'); // Replace with your clickable element's ID
+listView.addEventListener('click', viewList);
