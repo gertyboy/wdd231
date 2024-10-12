@@ -79,7 +79,8 @@ async function addHeaderAndFooter() {
             { name: "WDD231 Class Project", class: "right" },
             { name: "Gerrit Thompson", class: "right" },
             { name: "&copy 2024 Spanish Fork Chamber of Commerce", class: "right" },
-            { name: lastModified, class: "right" }
+            { name: lastModified, class: "right" },
+            {name: "Some Pictures credit: &copy Spanish Fork City", class: "right"}
         ]
         listItems.forEach((listItems) => {
             const listItem = document.createElement('li');
