@@ -167,6 +167,10 @@ section h2 {
     border-radius: .25rem;
 }
 
+#card-view, #list-view, :hover::after{
+    cursor: pointer;
+}
+
 #selectors{
     text-align: center;
 }
