@@ -179,6 +179,7 @@
   #different_courses span:hover {
     cursor: pointer;
   }
+
   .mobile_only {
     display: none;
   }
@@ -208,7 +209,7 @@
     margin-right: auto;
   }
 
-  .hamburger{
+  .hamburger {
     height: 4px;
     width: 20px;
     margin-bottom: 2px;
@@ -221,11 +222,11 @@
     display: none;
   }
 
-  #gertportrait{
+  #gertportrait {
     margin-top: 20px;
   }
 
-  .section_title{
+  .section_title {
     height: 75px;
     width: 318px;
     margin-top: 50px;
@@ -236,7 +237,7 @@
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
   }
-  
+
   .body_section {
     max-height: 375px;
     min-height: 200px;
@@ -249,7 +250,7 @@
     border-bottom-right-radius: 9px;
   }
 
-  .tokyo{
+  .tokyo {
     max-width: 300px;
     max-height: 225px;
     margin-left: auto;
@@ -257,7 +258,7 @@
     margin-top: 25px;
     margin-bottom: 25px
   }
-  
+
   #course-links {
     width: 318px;
     height: 450px;

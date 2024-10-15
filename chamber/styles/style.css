@@ -154,6 +154,7 @@ section h2 {
 #cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #card-view,
@@ -188,6 +189,7 @@ section h2 {
         border-radius: 1rem;
         margin: 30px;
         background-color: rgb(177, 217, 253);
+
     }
 }
 
