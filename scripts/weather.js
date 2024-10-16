@@ -1,7 +1,7 @@
 const myTown = document.querySelector('#town');
 const myDecription = document.querySelector('#description');
 const myTemperature = document.querySelector('#temperature');
-const myGraphic = document.querySelector('#graphic');
+const myGraphic = document.querySelector('#weather-icon');
 const currentTemp = document.getElementById('current-temp')
 // CREATE REQUIED VARIABLES FOR THE URL
 const myKey = "c6ff61a3a0944fdbe6d03222dfec51d0";
@@ -15,9 +15,7 @@ async function apiFetch() {
     const response = await fetch(myURL);
     if (response.ok) {
       const data = await response.json();
-      console.log(data); // testing only
-      let temperature = Math.round(data.main.temp);
-      currentTemp.innerHTML = temperature
+      displayResults(data)
     }
     else {
       throw Error(await response.text());
@@ -25,6 +23,12 @@ async function apiFetch() {
   } catch (error) {
     console.log(error);
   }
+}
+
+
+function displayResults(data) {
+  let temperature = Math.round(data.main.temp);
+  currentTemp.innerHTML = `${temperature}&deg;F`;
 }
 
 apiFetch();
