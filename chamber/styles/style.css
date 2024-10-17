@@ -196,3 +196,11 @@ section h2 {
 h1{
     text-align: center;
 }
+
+.goodMain{
+    display: grid;
+    
+}
+
+#heroImage{
+}
