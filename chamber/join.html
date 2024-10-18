@@ -2,22 +2,34 @@
 <html>
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the page to join the Spanish Fork Chamber of Commerce">
+    <meta name="author" content="Gerrit Thompson">
+    <meta property="og:title" content="Join Spanish Fork Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gertyboy.github.io/wdd231/chamber/join.html">
+    <meta property="og:image" content="https://www.spanishfork.org/sliderimage/General/city_pano_2019.jpg">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://gertyboy.github.io/wdd231/images/favicon.ico">
+    <title>Join | Spanish Fork Chamber of Commerce</title>
 </head>
 
 <body>
     <form>
-        <label for="firstName">First Name:</label>
-        <input name="firstName" id="firstName" type="text" autocomplete="given-name" />
+        <main class="goodMain">
+            <label for="firstName">First Name:</label>
+            <input name="firstName" id="firstName" type="text" autocomplete="given-name" />
 
-        <label for="lastName">Last Name:</label>
-        <input name="lastName" id="lastName" type="text" autocomplete="family-name" />
+            <label for="lastName">Last Name:</label>
+            <input name="lastName" id="lastName" type="text" autocomplete="family-name" />
 
-        <label for="email">Email:</label>
-        <input name="email" id="email" type="email" autocomplete="off" />
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="email" autocomplete="off" />
+        </main>
 
     </form>
-
+    <script src="./scripts/generate.js"></script>
 </body>
 
 </html>
