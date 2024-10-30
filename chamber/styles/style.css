@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    min-height: 100dvh;
 }
 
 header {
@@ -16,9 +17,10 @@ header {
 
 footer {
     background-color: rgb(177, 217, 253);
+
 }
 
-img {
+#sflogo {
     height: 7dvh;
     /* Adjust height as needed */
     margin-left: 20px;
@@ -202,6 +204,7 @@ h1{
 
 }
 
-#discover{
-    
+
+#hero-image{
+    width: 100dvw;
 }
