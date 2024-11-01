@@ -30,7 +30,7 @@ async function apiFetch() {
 }
 
 function displayForecast(forecastData) {
-  console.log(forecastData.list)
+ // console.log(forecastData.list)
   const dayone = document.getElementById("tomorrow-temp");
   const daytwo = document.getElementById("twoday-temp");
   const daythree = document.getElementById("threeday-temp");
